@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@font-face {
+   font-family:'fonte-droid';
+   src: url(fontes/idroid.otf)
+   format('opentype');   
+}
+@font-face {
+   font-family:'Bebas Neue' ;
+   src: url(BebasNeue-Regular.ttf)
+   format('truetype');
+}
+/*Problemas quando a diminui a tela do site*/
+*{
+   margin:0px;
+   padding: 0px;
+}
+:root{
+   --cor1: #6bdd9ffb;
+}
+body{
+   background-color: #EBE5C5;
+   margin:auto;
+}
+header{
+   min-width: 500px;
+   height: 220px;
+   background-image: linear-gradient(180deg, #25a15d, #1d854c, #08582b, #063d1e);
+}
+header > h1{
+   margin-top: 0px;
+   margin-bottom: 10px;
+   color: white;
+   text-align: center;
+   padding-top: 40px;
+   font-family: 'Bebas Neue';
+   font-size: 48px;
+   text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.329);
+
+}
+header > p{
+   color: white;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 19px;
+   text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.356);
+   margin:auto;
+   height: 44px;
+   max-width: 600px;
+}
+nav{
+   min-width: 500px;
+   background-color: #063D1E;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 16px;
+   height: 30px;
+}
+#menu{
+   color: var(--cor1);
+   text-decoration: none;
+   margin: 15px 15px 15px 15px;
+}
+#menu:hover{
+   padding: 10px;
+   margin: 5px;
+   border-radius: 5px;
+   background-color: #43a871;
+   color: #163825;
+}
+main{
+   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.548);
+   margin:auto;
+   max-width: 1100px;
+   min-width: 450px;
+   background-color: white;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   margin-bottom: 25px;
+   padding: 20px;
+}
+main > h1{
+   font-family: 'fonte-droid';
+   font-weight: normal;
+   font-size: 28px;
+   color: #063D1E;
+   margin-left: 20px;
+}
+main > p{
+   font-size: 16px;
+   font-family:Arial, Helvetica, sans-serif;
+   text-align: justify;
+   margin: auto;
+   padding: 18px;
+   text-indent: 30px;
+   line-height:30px;
+}
+strong{
+   color: #1A5C37;
+}
+main > h2{
+   font-family: 'fonte-droid';
+   font-weight:normal;
+   font-size: 20px;
+   margin-left: 20px;
+   background-image: linear-gradient(90deg, #74be96, #b6ebce, #f8f8f8);
+   color:#1A5C37;
+}
+.link{
+   color: #1A5C37;
+   text-decoration: none;
+   background-color: #83E1AD;
+   font-weight: bolder;
+}
+.link::after{
+   content: "\1F517";
+}
+.link:hover{
+   color: #25a15d;
+   text-decoration: underline;
+}
+img{
+   max-width: 100%;
+}
+.img1{
+   margin: 0 25px;
+}
+.img2{
+   display: block;
+   margin:auto;
+}
+.video{
+   background-color: #063D1E;
+   padding: 20px;
+   padding-bottom: 55%;
+   position: relative;
+}
+.video > iframe{
+   position: absolute ;
+   top: 5%;
+   left: 5%;
+   width: 89.9%;;
+   height: 89%;
+}
+main > article{
+   background-color: #83E1AD;
+   margin: 25px;
+   border-radius:15px;
+   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.582);
+}
+article > h3{
+   background-color:#1A5C37;
+   border-radius: 15px 15px 0px 0px;
+   padding: 15px 15px 5px 15px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:19px;
+   color: white;
+   margin-bottom: 12px;
+}
+article > p{
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 35px;
+   text-indent: 35px;
+   text-align: justify;
+   margin: 5px 10px
+}
+article > ul{
+   columns: 2;
+   list-style-position: inside;
+   list-style-type: '\2714';
+}
+.final{
+   padding: 5px;
+   text-align: center;
+}
+footer{
+   min-width: 500px;
+   font-family: arial;
+   font-size:15px;
+   color: white;
+   text-align: center;
+   background-color: #063D1E;
+   padding: 5px;
+   margin: auto;
+   
+}
