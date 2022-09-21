@@ -2,7 +2,9 @@
  Projetos de Desenvolvimento Web
 
 <a href="https://pedroh-araujo.github.io/Projetos/projeto-cordel/"> <strong>Projeto Cordel</strong></a>
+<br>
 <img src="projeto-cordel\imagens\Projeto-cordel0.png" alt="">
+<img src="projeto-cordel\imagens\Projeto-cordel1.png" alt="">
 <br>
 
 <a href="https://pedroh-araujo.github.io/Projetos/projeto-android/">
