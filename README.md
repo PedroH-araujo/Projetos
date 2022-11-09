@@ -20,5 +20,6 @@
 <a href="https://pedroh-araujo.github.io/Projetos/projeto-FlappyBird/">
    <strong>Projeto Flappy Bird</strong>
 </a>
-   <video autoplay="autoplay" loop="loop" controls="controls" width="640" height="360">
-      <source src="projeto-FlappyBird\Flappy Bird showcase.mp4" type="video/mp4"></video>
+<br>
+
+<img src="projeto-FlappyBird\Flappy Bird.png">
