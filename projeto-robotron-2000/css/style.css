@@ -209,12 +209,6 @@ main {
     margin: 10px 0 0;
 }
 
-.mudar-cor{
-    position: absolute;
-    top: 69%;
-    left: 42%;
-    font-weight: 500;
-}
 
 @media screen and (max-width: 1600px) {
     body { 
