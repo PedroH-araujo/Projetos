@@ -65,5 +65,5 @@ var x = function atualizaEstatisticas(peca, operacao) {
 }
 
 const robo = document.querySelector('.robo')
-var corrobo = window.prompt('Dentre as cores azul, amarelo, vermelho, rosa, branco e preto. Qual você gostaria para seu Robotron 2000?')
+var corrobo = window.prompt('Dentre as cores azul, amarelo, vermelho, rosa, branco e preto. Qual você gostaria de usar para seu Robotron 2000?')
 robo.src = `img/robotron ${corrobo}.png`
