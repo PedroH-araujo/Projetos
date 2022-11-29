@@ -63,3 +63,14 @@ var x = function atualizaEstatisticas(peca, operacao) {
       elemento.textContent = parseInt(elemento.textContent) + pecas[peca] [elemento.dataset.estatistica]
    })}
 }
+
+const robo = document.querySelector('.robo')
+/*var corrobo = window.prompt('Dentre as cores azul, amarelo, vermelho, rosa, branco e preto. Qual você gostaria para seu Robotron 2000?')
+robo.src = `img/robotron ${corrobo}.png`*/
+
+
+
+const mudarcor = document.querySelector('.mudar-cor')
+const cores = ['img/robotron azul.png', 'img/robotron amarelo.png', 'img/robotron vermelho.png', 'img/robotron rosa.png', 'img/robotron branco.png', 'img/robotron preto.png']
+mudarcor.addEventListener("click", alteracor())
+
